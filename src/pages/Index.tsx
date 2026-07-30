@@ -5,8 +5,8 @@ const Navbar = () => (
   <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-md border-b border-border">
     <div className="container mx-auto flex items-center justify-between py-3 px-4">
       <div className="flex items-center gap-3">
-        <img src={vvlLogo} alt="VVL Logo" className="w-10 h-10 object-contain" />
-        <span className="font-heading font-bold text-lg text-foreground">VVL Enterprises</span>
+        <img src={vvlLogo} alt="VLS Logo" className="w-10 h-10 object-contain" />
+        <span className="font-heading font-bold text-lg text-foreground">VLS Enterprises</span>
       </div>
       <div className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
         <a href="#about" className="hover:text-primary transition-colors">About</a>
@@ -14,7 +14,7 @@ const Navbar = () => (
         <a href="#why" className="hover:text-primary transition-colors">Why Us</a>
         <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
       </div>
-      <a href="https://app.vvlenterprises.in" target="_blank" rel="noopener noreferrer"
+      <a href="https://app.vlsenterprises.in/login" target="_blank" rel="noopener noreferrer"
         className="bg-primary text-primary-foreground px-5 py-2 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity">
         Open Portal
       </a>
@@ -30,16 +30,16 @@ const Hero = () => (
           <Shield size={16} /> Trusted Finance Partner
         </div>
         <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-4">
-          VVL Enterprises
+          VLS Enterprises
         </h1>
         <p className="text-xl md:text-2xl font-heading font-semibold text-gradient mb-6">
           Finance & Collection Services
         </p>
         <p className="text-muted-foreground text-lg max-w-xl mb-8 leading-relaxed">
-          A trusted small-scale finance service operating under the VVL group, focused on structured loan management and responsible collection practices.
+          A trusted small-scale finance service operating under the VLS group, focused on structured loan management and responsible collection practices.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-          <a href="https://app.vvlenterprises.in" target="_blank" rel="noopener noreferrer"
+          <a href="https://app.vlsenterprises.in/login" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-xl text-base font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-primary/25">
             Get Started <ChevronRight size={18} />
           </a>
@@ -52,7 +52,7 @@ const Hero = () => (
       <div className="flex-1 flex justify-center">
         <div className="relative">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-3xl bg-primary/5 border border-primary/10 flex items-center justify-center">
-            <img src={vvlLogo} alt="VVL Enterprises Logo" className="w-48 h-48 md:w-60 md:h-60 object-contain drop-shadow-2xl" />
+            <img src={vvlLogo} alt="VLS Enterprises Logo" className="w-48 h-48 md:w-60 md:h-60 object-contain drop-shadow-2xl" />
           </div>
           <div className="absolute -top-4 -right-4 w-20 h-20 bg-accent/10 rounded-2xl blur-2xl" />
           <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary/10 rounded-2xl blur-2xl" />
@@ -65,10 +65,10 @@ const Hero = () => (
 const About = () => (
   <section id="about" className="py-20 bg-card">
     <div className="container mx-auto px-4 max-w-3xl text-center">
-      <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">About VVL Enterprises</h2>
+      <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">About VLS Enterprises</h2>
       <div className="w-16 h-1 bg-primary rounded-full mx-auto mb-8" />
       <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-        VVL Enterprises operates as a finance services division under the VVL group. We provide structured small-scale lending and organized collection management for our customers.
+        VLS Enterprises operates as a finance services division under the VLS group. We provide structured small-scale lending and organized collection management for our customers.
       </p>
       <p className="text-muted-foreground text-lg leading-relaxed">
         Our focus is on maintaining transparent records, responsible financial tracking, and systematic customer management to ensure smooth financial operations.
@@ -103,7 +103,7 @@ const Services = () => (
 );
 
 const whyItems = [
-  "Operates under the trusted VVL brand",
+  "Operates under the trusted VLS brand",
   "Structured and organized financial processes",
   "Secure digital record management",
   "Dedicated support team",
@@ -113,7 +113,7 @@ const whyItems = [
 const WhyChoose = () => (
   <section id="why" className="py-20 bg-card">
     <div className="container mx-auto px-4 max-w-3xl">
-      <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">Why Choose VVL Enterprises</h2>
+      <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground text-center mb-4">Why Choose VLS Enterprises</h2>
       <div className="w-16 h-1 bg-primary rounded-full mx-auto mb-12" />
       <div className="space-y-4">
         {whyItems.map((item, i) => (
@@ -136,7 +136,7 @@ const Portal = () => (
       <p className="text-muted-foreground text-lg leading-relaxed mb-8">
         Our internal finance management system is designed for authorized staff and agents to manage customer records and collections securely.
       </p>
-      <a href="https://app.vvlenterprises.in" target="_blank" rel="noopener noreferrer"
+      <a href="https://app.vlsenterprises.in/login" target="_blank" rel="noopener noreferrer"
         className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-xl text-base font-semibold hover:opacity-90 transition-opacity shadow-lg shadow-primary/25">
         Open Finance Portal <ExternalLink size={18} />
       </a>
@@ -160,15 +160,15 @@ const Contact = () => (
           <p className="font-semibold text-foreground">Email</p>
           <p className="text-muted-foreground text-sm mt-1">saranraj87.ss@gmail.com</p>
         </a>
-         <a href="mailto:admin@vvlenterprises.in" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
+         <a href="mailto:admin@vlsenterprises.in" className="bg-secondary rounded-2xl p-6 text-center card-hover block">
           <Mail className="text-primary mx-auto mb-3" size={28} />
           <p className="font-semibold text-foreground">Write us</p>
-          <p className="text-muted-foreground text-sm mt-1">admin@vvlenterprises.in</p>
+          <p className="text-muted-foreground text-sm mt-1">admin@vlsenterprises.in</p>
         </a>
         <div className="bg-secondary rounded-2xl p-6 text-center">
           <MapPin className="text-primary mx-auto mb-3" size={28} />
           <p className="font-semibold text-foreground">Location</p>
-          <p className="text-muted-foreground text-sm mt-1">No.4 First Floor, VOC Street, MGR Nagar, KK Nagar, Chennai – 600078</p>
+          <p className="text-muted-foreground text-sm mt-1">No.78.First Floor K.K.Salai  M.G.R Nagar Chennai. 78 (Near MGR Nagar Market)</p>
         </div>
       </div>
     </div>
@@ -186,11 +186,11 @@ const Footer = () => (
   <footer className="bg-foreground text-primary-foreground py-12">
     <div className="container mx-auto px-4 text-center">
       <div className="flex items-center justify-center gap-3 mb-4">
-        <img src={vvlLogo} alt="VVL Logo" className="w-10 h-10 object-contain" />
-        <span className="font-heading font-bold text-xl">VVL Enterprises</span>
+        <img src={vvlLogo} alt="VLS Logo" className="w-10 h-10 object-contain" />
+        <span className="font-heading font-bold text-xl">VLS Enterprises</span>
       </div>
       <p className="text-primary-foreground/70 text-sm mb-2">Finance Services Division</p>
-      <p className="text-primary-foreground/50 text-xs mb-6">Operated under VVL Construction</p>
+      <p className="text-primary-foreground/50 text-xs mb-6">Operated under VLS Construction</p>
       <div className="flex justify-center gap-4 mb-8">
         {socials.map((s, i) => (
           <a key={i} href={s.href} aria-label={s.label}
